@@ -1,0 +1,12 @@
+base-url:
+  context: /best-deal/catalog-update/v1
+
+log:
+  identifierKey: UUID
+
+spring:
+  cloud:
+    gcp:
+      pub:
+        topicName: productInputs
+      project-id: productcatelog
